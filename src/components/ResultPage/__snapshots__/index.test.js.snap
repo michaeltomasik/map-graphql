@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResultPage form test suite renders with data 1`] = `
+"<MockedProvider mocks={{...}} addTypename={false}>
+  <ApolloProvider client={{...}}>
+    <ResultPage match={{...}}>
+      <Query query={{...}} variables={{...}}>
+        <h1>
+          Results:
+        </h1>
+        <ul>
+          <li>
+            <a href=\\"www.Nepal.com\\">
+              NP
+            </a>
+          </li>
+          <li>
+            <a href=\\"www.test.com\\">
+              test
+            </a>
+          </li>
+        </ul>
+      </Query>
+    </ResultPage>
+  </ApolloProvider>
+</MockedProvider>"
+`;

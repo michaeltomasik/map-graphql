@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContinentPage form test suite renders with data 1`] = `
+"<MockedProvider mocks={{...}} addTypename={false}>
+  <ApolloProvider client={{...}}>
+    <ContinentPage match={{...}}>
+      <Query query={{...}} variables={{...}}>
+        <h1>
+          Country: 
+          EU
+        </h1>
+        <ForwardRef>
+          <Uncontrolled(Bootstrap(ListGroup)) innerRef={{...}}>
+            <Bootstrap(ListGroup) activeKey={[undefined]} onSelect={[Function: handleChange]}>
+              <ListGroup activeKey={[undefined]} onSelect={[Function: handleChange]} bsPrefix=\\"list-group\\" variant={{...}}>
+                <ContextTransform(AbstractNav) activeKey={[undefined]} onSelect={[Function: handleChange]} as=\\"div\\" className=\\"list-group\\">
+                  <AbstractNav activeKey={[undefined]} onSelect={[Function: handleChange]} as=\\"div\\" className=\\"list-group\\" parentOnSelect={[undefined]}>
+                    <div className=\\"list-group\\" onKeyDown={[Function]}>
+                      <Bootstrap(ListGroupItem) action={true} as=\\"li\\" variant=\\"info\\" className=\\"country\\" onClick={[Function: onClick]}>
+                        <ListGroupItem action={true} as=\\"li\\" variant=\\"info\\" className=\\"country\\" onClick={[Function: onClick]} bsPrefix=\\"list-group-item\\" active={false} disabled={false}>
+                          <ForwardRef onClick={[Function]} eventKey={{...}} as=\\"li\\" className=\\"country list-group-item list-group-item-info list-group-item-action\\" disabled={false}>
+                            <li disabled={false} data-rb-event-key={{...}} id={[undefined]} aria-controls={[undefined]} onClick={[Function]} className=\\"country list-group-item list-group-item-info list-group-item-action\\">
+                              Nepal
+                            </li>
+                          </ForwardRef>
+                        </ListGroupItem>
+                      </Bootstrap(ListGroupItem)>
+                      <Bootstrap(ListGroupItem) action={true} as=\\"li\\" variant=\\"info\\" className=\\"country\\" onClick={[Function: onClick]}>
+                        <ListGroupItem action={true} as=\\"li\\" variant=\\"info\\" className=\\"country\\" onClick={[Function: onClick]} bsPrefix=\\"list-group-item\\" active={false} disabled={false}>
+                          <ForwardRef onClick={[Function]} eventKey={{...}} as=\\"li\\" className=\\"country list-group-item list-group-item-info list-group-item-action\\" disabled={false}>
+                            <li disabled={false} data-rb-event-key={{...}} id={[undefined]} aria-controls={[undefined]} onClick={[Function]} className=\\"country list-group-item list-group-item-info list-group-item-action\\">
+                              Oman
+                            </li>
+                          </ForwardRef>
+                        </ListGroupItem>
+                      </Bootstrap(ListGroupItem)>
+                    </div>
+                  </AbstractNav>
+                </ContextTransform(AbstractNav)>
+              </ListGroup>
+            </Bootstrap(ListGroup)>
+          </Uncontrolled(Bootstrap(ListGroup))>
+        </ForwardRef>
+      </Query>
+    </ContinentPage>
+  </ApolloProvider>
+</MockedProvider>"
+`;

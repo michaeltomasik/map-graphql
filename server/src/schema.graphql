@@ -1,0 +1,30 @@
+type Query {
+  getArticles(matchingString: String): Articles
+  getContinent(continentCode: String): Continent
+}
+
+type Continent {
+  name: String
+  code: String
+  countries: [Country]
+}
+
+type Country {
+  name: String
+  code: String
+  native: String
+}
+
+type Articles {
+  id: ID!
+  items: [Article]
+}
+
+type Article {
+  id: ID!
+  kind: String
+  title: String
+  htmlTitle: String
+  link: String
+  displayLink: String
+}

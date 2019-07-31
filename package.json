@@ -1,0 +1,37 @@
+{
+  "name": "react-fullstack-basic",
+  "version": "1.0.0",
+  "devDependencies": {
+    "react-scripts": "2.1.8",
+    "react-test-renderer": "^16.8.6"
+  },
+  "dependencies": {
+    "apollo-boost": "0.4.3",
+    "bootstrap": "^4.3.1",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-15": "^1.4.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "graphql": "14.0.2",
+    "react": "16.8.6",
+    "react-apollo": "2.5.8",
+    "react-bootstrap": "^1.0.0-beta.10",
+    "react-dom": "16.8.6",
+    "react-modal": "3.9.1",
+    "react-router-dom": "4.4.0-beta.8",
+    "react-world-map": "^1.0.13",
+    "tachyons": "4.11.1",
+    "waait": "^1.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
