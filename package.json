@@ -23,6 +23,7 @@
     "waait": "^1.0.5"
   },
   "scripts": {
+    "postinstall": "npm install --prefix server && npm install --prefix frontend-app",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
